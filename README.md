@@ -44,19 +44,19 @@ Johnny GUI was launched and configured to use the John the Ripper Jumbo executab
 
 The application successfully detected the installed JTR version.
 
-**Evidence: JTR i.png**
+
 
 ![Johnny Configuration](JTR%20i.png)
 
 ## Step 2: Extracting the PDF Hash
 
-A password-protected PDF training file was submitted to OnlineHashCrack's PDF hash extractor.
+A password protected PDF training file was submitted to OnlineHashCrack's PDF hash extractor.
 
 The tool successfully extracted the PDF password hash.
 
 The extracted hash was then prepared for use with John the Ripper.
 
-**Evidence: JTR ii.png**
+
 
 ![PDF Hash Extraction](JTR%20ii.png)
 
@@ -68,7 +68,7 @@ John the Ripper processed the hash and successfully recovered the password.
 
 **Recovered Password:** `good-luck`
 
-**Evidence: JTR iii.png**
+
 
 ![JTR Recovery Result](JTR%20iii.png)
 
@@ -78,9 +78,11 @@ The password recovery exercise was successful.
 
 This demonstrated how an extracted PDF hash can be processed using John the Ripper to recover a password.
 
+![CTF Completion](JTR%20RESULT.png)
+
 ---
 
-# 5. Practical Two: NetworkWalks Academy
+# 5. Practical Two: NetworkWalks Tools
 
 ## Step 1: Extracting the PDF Hash
 
@@ -88,7 +90,7 @@ The NetworkWalks Hash Calculator was opened.
 
 The encrypted PDF training file was uploaded, and the tool successfully extracted a compatible PDF password hash.
 
-**Evidence: NW i.png**
+
 
 ![NetworkWalks Hash Calculator](NW%20i.png)
 
@@ -100,7 +102,7 @@ The built-in dictionary option was selected.
 
 The tool displayed a built-in wordlist containing 100 candidate passwords.
 
-**Evidence: NW ii.png**
+
 
 ![Dictionary Attack Setup](NW%20ii.png)
 
@@ -116,7 +118,7 @@ The attack successfully recovered the password.
 
 The results screen showed a successful match after 91 of 100 attempts.
 
-**Evidence: NW iii.png**
+
 
 ![Successful Password Recovery](NW%20iii.png)
 
@@ -126,33 +128,13 @@ The dictionary attack successfully recovered the PDF password.
 
 This demonstrated how dictionary attacks use predefined password lists to identify matching passwords.
 
----
-
-# 6. Capture The Flag (CTF) Results
-
-During the practical exercises, NetworkWalks training flags were successfully captured.
-
-**Flag One:**
-
-`nw{cybersecurity_flag_captured_2608}`
-
-**Flag Two:**
-
-`nw{networkwalks_flag1_is_270021_1}`
-
-The completion screenshots are included as evidence.
-
-**Evidence: JTR RESULT.png**
-
-![CTF Completion](JTR%20RESULT.png)
-
-**Evidence: RESULT.png**
-
 ![Flag Capture](RESULT.png)
 
 ---
 
-# 7. Summary of Results
+
+
+# 6. Summary of Results
 
 | Practical | Tool | Result |
 |---|---|---|
@@ -170,7 +152,7 @@ Both exercises were completed successfully.
 
 ---
 
-# 8. Key Learning Outcomes
+# 7. Key Learning Outcomes
 
 Through these practical exercises, I gained hands-on experience in:
 
@@ -183,7 +165,7 @@ Through these practical exercises, I gained hands-on experience in:
 - Documenting cybersecurity practical exercises.
 - Understanding the importance of strong passwords.
 
-## 9. Conclusion
+## 8. Conclusion
 
 This practical provided valuable hands-on experience with password recovery techniques using John the Ripper and NetworkWalks Academy tools.
 
@@ -191,7 +173,7 @@ Both exercises were completed successfully, demonstrating the importance of unde
 
 The screenshots included in this repository provide evidence of the processes performed and their successful outcomes.
 
-## 10. Ethical Considerations
+## 9. Ethical Considerations
 
 All activities documented in this repository were performed as part of cybersecurity training.
 
